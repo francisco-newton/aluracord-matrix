@@ -59,8 +59,10 @@ function Titulo(props) {
 // }
 // export default HomePage
 
+
+
 export default function PaginaInicial() {
-    const username = 'peas';
+    const username = 'francisco-newton';
 
     return (
         <>
@@ -69,10 +71,12 @@ export default function PaginaInicial() {
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     backgroundColor: appConfig.theme.colors.primary[500],
-                    backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+                    backgroundImage: 'url(https://images3.alphacoders.com/975/thumb-1920-975999.png)',
                     backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
+                    
                 }}
             >
+                {/*https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg Imagem*/}
                 <Box
                     styleSheet={{
                         display: 'flex',
